@@ -90,10 +90,10 @@ temps=0
 seuil_temps_video=dt_video
 image_path_list=[]
 
-image_folder="/home/anatole/Images/Saint_Venant_Animation" #Attention ce dossier est créé puis détruit à chaque execution
-if os.path.exists(image_folder):
-	shutil.rmtree(image_folder)
-os.mkdir(image_folder)
+# image_folder="/home/anatole/Images/Saint_Venant_Animation" #Attention ce dossier est créé puis détruit à chaque execution
+# if os.path.exists(image_folder):
+# 	shutil.rmtree(image_folder)
+# os.mkdir(image_folder)
 
 Plot_water_high(X,W,temps)
 plt.pause(0.1)
